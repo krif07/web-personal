@@ -39,8 +39,8 @@ python3 manage.py runserver
 source env/bin/activate
 
 cd webpersonalapp/
-# crear aplicación newapp
-python3 manage.py startapp newapp
+# crear aplicación core
+python3 manage.py startapp core
 ```
 
 # Hacer las migraciones de los modelos
@@ -49,7 +49,7 @@ python3 manage.py startapp newapp
 source env/bin/activate
 
 cd webpersonalapp/
-python3 manage.py makemigrations newapp
+python3 manage.py makemigrations core
 python3 manage.py migrate
 ```
 
