@@ -1,7 +1,6 @@
 # web-personal
-```sh
 Proyecto en Django que muestra una web con información personal como el portafolio, contacto y redes sociales.
-```
+
 # Creando el entorno virtual
 ```sh
 python3 -m venv env
