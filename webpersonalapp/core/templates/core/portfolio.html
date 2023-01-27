@@ -2,7 +2,13 @@
 
 {% block title %}Portafolio{% endblock title %}
 
+{% block background %}{% load static %}{% static "core/img/portfolio-bg.jpg" %}{% endblock background %}
+
+{% block header %}
+    <h1>Portafolio</h1>
+    <span class="subheading">Software Development Engineer in Test</span>
+{% endblock %}
+
 {% block content %}
-<h2>Portafolio</h2>
-<p>Portafolio</p>
+
 {% endblock %}

@@ -2,7 +2,13 @@
 
 {% block title %}Acerca de{% endblock title %}
 
+{% block background %}{% load static %}{% static "core/img/about-bg.jpg" %}{% endblock background %}
+
+{% block header %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Software Development Engineer in Test</span>
+{% endblock %}
+
 {% block content %}
-<h2>Acerca de</h2>
-<p>Acerca de</p>
+
 {% endblock %}
