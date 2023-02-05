@@ -6,6 +6,8 @@ Proyecto en Django que muestra una web con información personal como el portafo
 python3 -m venv env
 cd web-personal
 source env/bin/activate
+# Windows
+.\env\Scripts\activate
 ```
 
 # Creando Proyecto web-personal
