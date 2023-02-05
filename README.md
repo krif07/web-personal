@@ -53,6 +53,11 @@ source env/bin/activate
 cd webpersonalapp/
 python3 manage.py makemigrations core
 python3 manage.py migrate
+
+cd webpersonalapp/
+python3 manage.py makemigrations portfolio
+python3 manage.py migrate portfolio
+```
 ```
 
 # Crear un súper usuario
