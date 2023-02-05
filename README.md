@@ -40,9 +40,9 @@ python3 manage.py runserver
 # activar el entorno virtual 
 source env/bin/activate
 
-cd app/
-# crear aplicación polls
-python3 manage.py startapp polls
+cd webpersonalapp/
+# crear aplicación core
+python3 manage.py startapp core
 ```
 
 # Hacer las migraciones de los modelos
@@ -50,8 +50,8 @@ python3 manage.py startapp polls
 # activar el entorno virtual 
 source env/bin/activate
 
-cd app/
-python3 manage.py makemigrations polls
+cd webpersonalapp/
+python3 manage.py makemigrations core
 python3 manage.py migrate
 ```
 
